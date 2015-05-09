@@ -5,3 +5,5 @@ datetime = strptime(paste(data[,1], data[,2]), "%Y/%m/%d %H:%m:%s")
 graphics.off()
 
 hist(data[,3], xlab = "Global Active Power (kW)", col = '2')
+
+dev.copy(png, "plot1.png")
