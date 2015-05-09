@@ -28,4 +28,8 @@ plot(datetime, data[,9], 'l', ylab = "Energy", ylim = ylim, col = 3)
 legend("topright", series, col = 1:3, pch = 1:3, cex = .3)
 
 ### Plot 4 ###
+<<<<<<< HEAD
 plot(datetime, data[,4], 'l', ylab = "Global Reactive Power, kW")
+=======
+plot(datetime, data[,4], 'l', ylab = "Global Reactive Power, kW"))
+>>>>>>> 1066656d644305b20f8b5b25720e71b8beb510d3
